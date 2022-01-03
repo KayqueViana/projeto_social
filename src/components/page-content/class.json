@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_content_classes",
+  "info": {
+    "displayName": "class",
+    "icon": "border-style"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "is_external": {
+      "type": "boolean"
+    }
+  }
+}

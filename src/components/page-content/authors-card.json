@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_content_authors_cards",
+  "info": {
+    "displayName": "authors_card",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "group": {
+      "type": "string"
+    },
+    "names": {
+      "type": "richtext",
+      "required": false
+    }
+  }
+}

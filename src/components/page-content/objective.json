@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_content_objectives",
+  "info": {
+    "displayName": "objective",
+    "icon": "calendar-check"
+  },
+  "options": {},
+  "attributes": {
+    "section_name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "richtext",
+      "maxLength": 500
+    }
+  }
+}

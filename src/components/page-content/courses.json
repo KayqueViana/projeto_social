@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_content_courses",
+  "info": {
+    "displayName": "courses",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_name": {
+      "type": "string"
+    },
+    "class": {
+      "displayName": "class",
+      "type": "component",
+      "repeatable": true,
+      "component": "page-content.class",
+      "max": 4
+    }
+  }
+}

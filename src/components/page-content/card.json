@@ -1,13 +1,13 @@
 {
-  "collectionName": "components_page_content_heroes",
+  "collectionName": "components_page_content_cards",
   "info": {
-    "displayName": "hero",
-    "icon": "chalkboard",
+    "displayName": "card",
+    "icon": "border-all",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "image": {
+    "icon": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -15,11 +15,9 @@
         "images"
       ]
     },
-    "objective": {
-      "type": "string"
-    },
-    "project_name": {
-      "type": "string"
+    "title": {
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "text"
