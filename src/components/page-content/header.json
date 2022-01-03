@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_content_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": false
+    },
+    "autor": {
+      "type": "string"
+    }
+  }
+}

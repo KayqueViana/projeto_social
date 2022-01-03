@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_content_definicaos",
+  "info": {
+    "displayName": "definicao",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "titulo": {
+      "type": "text",
+      "required": true
+    },
+    "desc": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

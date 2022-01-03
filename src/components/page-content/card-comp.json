@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_content_card_comps",
+  "info": {
+    "displayName": "card_comp",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "img_card": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "text_card": {
+      "type": "string"
+    }
+  }
+}

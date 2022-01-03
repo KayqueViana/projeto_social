@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_content_complementos",
+  "info": {
+    "displayName": "complemento",
+    "icon": "briefcase-medical"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "text",
+      "required": false
+    },
+    "card": {
+      "displayName": "card_comp",
+      "type": "component",
+      "repeatable": true,
+      "component": "page-content.card-comp",
+      "max": 3
+    }
+  }
+}
