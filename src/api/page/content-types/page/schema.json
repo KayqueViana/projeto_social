@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "page "
+    "displayName": "page ",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +17,9 @@
       "components": [
         "page-content.header",
         "page-content.definicao",
-        "page-content.complemento"
+        "page-content.complemento",
+        "page-content.grad",
+        "page-content.prof"
       ]
     }
   }

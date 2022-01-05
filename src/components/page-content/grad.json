@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_content_grads",
+  "info": {
+    "displayName": "grad",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "hora": {
+      "type": "richtext",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": false
+    }
+  }
+}

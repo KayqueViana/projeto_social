@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_content_profs",
+  "info": {
+    "displayName": "prof",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "ti_prof": {
+      "type": "string",
+      "required": true
+    },
+    "nome_prof": {
+      "type": "string",
+      "required": true
+    },
+    "texto_prof": {
+      "type": "richtext",
+      "required": true
+    },
+    "img_prof": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
