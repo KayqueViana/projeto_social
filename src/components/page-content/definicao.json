@@ -1,20 +1,21 @@
 {
   "collectionName": "components_page_content_definicaos",
   "info": {
-    "displayName": "definicao",
-    "icon": "align-justify"
+    "displayName": "definition",
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "img": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
-    "titulo": {
+    "title": {
       "type": "text",
       "required": true
     },
